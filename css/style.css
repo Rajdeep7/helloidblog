@@ -897,7 +897,7 @@ section#about {
     font-size:13px;
 }
 
-.success {
+#sendmessage {
     color: green;
     border:1px solid green;
     display:none;
@@ -908,7 +908,7 @@ section#about {
     background: #fff;
 }
 
-.error {
+#errormessage {
     color: red;
     display:none;
     border:1px solid red;
@@ -919,7 +919,7 @@ section#about {
     background: #fff;
 }
 
-.success.show, .error.show, .show {
+#sendmessage.show, #errormessage.show, .show {
 	display:block;
 }
 

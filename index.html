@@ -358,7 +358,7 @@
 			<div class="cform" id="contact-form">
 				<div id="form-messages"></div>
 				
-				<form id="ajax-contact" method="post" action="mailer.php">
+				<form id="contactForm" method="post" action="mailer.php">
 					
 					<div class="row">
 						<div class="span6">
@@ -371,6 +371,11 @@
 							<input type="text" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
                                 			<div class="validation"></div>
 						    </div>
+						
+						    <div class="field your-name form-group">
+							<input type="text" name="phone" class="form-control" id="phone" placeholder="Your Phone no." data-rule="minlen:10" data-msg="Please enter a valod phone number" />
+                                			<div class="validation"></div>
+							
 						</div>
 						<div class="span6">
 						    <div class="field message form-group">
